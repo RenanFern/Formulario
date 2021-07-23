@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <form class="container">
+        <h1 class="titulo">Cadastro</h1>
+        <h2>Complete suas informações</h2>
+        
+        <section class="principal">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel" name="tel" placeholder="(DDD) XXXXX-XXXX">
+        </section>
+        
+        
+        <section class="sexo">
+            <span>Sexo</span>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="radio" id="feminino">
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="radio" id="masculino" checked>
+        </section>
+        
+        <section class="experiencias">
+            <span>Marque suas Experiências </span>
+            
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="html" value="html"><br>
+            
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="css" value="css"><br>
+
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="javascript"  name="javascript" value="javascript"><br>
+
+        </section>
+        
+        <div class="texto">
+            <span>Escreva suas informações</span>
+            <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="botao">
+        </div>
+
+    </form>
+    
+</body>
+</html>
